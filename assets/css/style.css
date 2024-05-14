@@ -367,6 +367,10 @@ section.section-show {
   opacity: 1;
   padding-bottom: 45px;
 }
+/* my code  */
+/* .hide {
+  display: none;
+} */
 
 section .container {
   background: rgba(0, 0, 0, 0.9);

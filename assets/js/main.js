@@ -46,6 +46,13 @@
     })
   }
 
+  // Rest of your existing JavaScript code...
+
+  
+
+  
+  // Continue with the rest of your existing JavaScript code...
+
   /**
    * Mobile nav toggle
    */
