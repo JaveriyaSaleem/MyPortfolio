@@ -1,15 +1,3 @@
-/**
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -59,6 +47,12 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+}
+.font-style{
+  font-style: italic;
 }
 
 /*--------------------------------------------------------------
@@ -444,6 +438,14 @@ section .container {
   background-clip: text;
   color: transparent;
 }
+.web-developer{
+  font-weight: 700;
+  font-size: 26px;
+  background-image: linear-gradient(90deg, #ff5757 0%, #8c52ff 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
 
 .about-me .content ul {
   list-style: none;
@@ -669,7 +671,7 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .resume-title {
+.resume-title{
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -677,7 +679,14 @@ section .container {
   color: #fff;
 }
 
+
 .resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.border-left{
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
@@ -696,8 +705,28 @@ section .container {
   color: transparent;
   margin-bottom: 10px;
 }
+.resumeItem-h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(90deg, #ff5757 0%, #8c52ff 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
 
 .resume .resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.h5-resume{
   font-size: 16px;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
